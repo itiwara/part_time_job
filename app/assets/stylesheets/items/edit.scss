@@ -1,0 +1,69 @@
+.item__edit {
+  height: 650px;
+  margin-top: 35px;
+  padding-top: 50px;
+  &__name {
+    width: 600px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+    .name__form3 {
+      width: 600px;
+      border: solid 3px black;
+      text-align: center;
+    }
+  }
+  &__price {
+    width: 550px;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 30px;
+    .price__form2 {
+      width: 550px;
+      border: solid 3px black;
+      text-align: center;
+    }
+  }
+  &__detail {
+    width: 900px;
+    height: 280px;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 auto;
+    margin-top: 30px;
+    .detail__form2 {
+      padding: 10px 20px 10px 20px;
+      width: 900px;
+      height: 280px;
+      border: solid 3px black;
+    }
+  }
+  &__option {
+    display: flex;
+    margin: 10px 0px 10px 400px;
+    &__go {
+      font-size: 40px;
+      font-weight: bold;
+      border: solid 3px black;
+      background-color: lightgoldenrodyellow;
+      padding: 5px;
+    }
+    &__destory {
+      font-size: 40px;
+      border: solid 3px black;
+      background-color: lightgoldenrodyellow;
+      border-radius: 50px;
+      padding: 5px;
+      margin-left: 150px;
+    }
+    &__back {
+      font-size: 40px;
+      border: solid 3px black;
+      background-color: lightgoldenrodyellow;
+      border-radius: 50px;
+      padding: 5px;
+      margin-left: 150px;
+    }
+  }
+}

@@ -2,7 +2,7 @@
 - @items.each do |item|
   .item__index
     .item__index__name
-      = link_to "#" do
+      = link_to edit_item_path(item.id) do
         = item.name
 .new__sub
   .new__sub__back
