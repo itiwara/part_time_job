@@ -1,0 +1,15 @@
+.item__edit
+  = form_for(@item) do |f|
+    .item__edit__name
+      = f.text_field :name, class: "name__form3"
+    .item__edit__price
+      = f.text_field :price, class: "price__form2"
+    .item__edit__detail
+      = f.text_area :detail, class: "detail__form2"
+    .item__edit__option
+      .item__edit__option__go
+        = f.submit "決定"
+      .item__edit__option__destory
+        = link_to "削除", item_path(@item.id), method: :delete
+      .item__edit__option__back
+        = link_to "戻る", items_path
