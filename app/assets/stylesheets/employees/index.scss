@@ -1,0 +1,31 @@
+h3 {
+  font-size: 70px;
+  font-weight: bold;
+  margin: 50px 0px 0px 550px;
+}
+.emp {
+  margin-top: 50px;
+  &__index {
+    margin-left: 360px;
+    th {
+      font-weight: bold;
+      border: 5px solid rgb(80, 77, 77);
+      width: 350px;
+      background-color: white;
+      font-size: 40px;
+      text-align: center;
+    }
+    td {
+      border: 5px solid rgb(80, 77, 77);
+      background-color: white;
+      width: 350px;
+      font-size: 40px;
+      text-align: center;
+    }
+  }
+}
+.emp__index__back {
+  font-size: 50px;
+  font-weight: bold;
+  margin-top: 30px;
+}

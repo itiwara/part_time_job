@@ -1,0 +1,42 @@
+.item__top
+  .item__top__logo
+    ichi burger
+  .item__top__time
+    = Time.current.strftime("%Y-%m-%d %H:%M")
+  .item__top__accounted
+    = link_to "#" do
+      会計済み一覧
+  .item__top__guest
+    = link_to "#" do
+      会員情報
+  .item__top__employee
+    = link_to "従業員関係", new_employee_path 
+.item__under
+  %table{border: "1"}
+    %caption
+      従業員No. 入力
+    %tr
+      %td 1
+      %td 2
+      %td 3
+      %td 4
+    %tr
+      %td 5
+      %td 6
+      %td 7
+      %td 8
+    %tr
+      %td 9
+      %td 0
+      %td クリア
+      %td 進む
+  .item__under__form
+    -# = form_for @employee, url: root_path do |f|
+    -#   = f.text_field :name
+  .item__under__sales
+    = link_to "#" do
+      売上
+  .item__under__product
+    = link_to "商品編集", items_path
+      
+    

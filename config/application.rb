@@ -17,3 +17,18 @@ module PartTimeJob
     # the framework and any gems in your application.
   end
 end
+
+module TimeFormatSandbox
+  class Application < Rails::Application
+    config.time_zone = 'Asia/Tokyo'
+    # config.i18n.default_locale = :ja
+  end
+end
+module TimeFormatSandbox
+  class Application < Rails::Application
+    # ...
+
+    # デフォルトのロケールを日本（ja）に設定
+    config.i18n.default_locale = :ja
+  end
+end
