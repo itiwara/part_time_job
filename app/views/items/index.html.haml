@@ -1,0 +1,12 @@
+%h4 ----------商品一覧----------
+- @items.each do |item|
+  .item__index
+    .item__index__name
+      = link_to "#" do
+        = item.name
+.new__sub
+  .new__sub__back
+    = link_to "戻る", root_path
+  = link_to new_item_path do
+    %i.fas.fa-plus
+

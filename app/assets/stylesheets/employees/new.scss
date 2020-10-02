@@ -1,0 +1,65 @@
+.emp__new {
+  display: flex;
+  h2 {
+    font-size: 60px;
+    font-weight: bold;
+    margin: 30px 0px 0px 300px;
+  }
+  .list__btn {
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid rgb(80, 77, 77);
+    height: 80px;
+    width: 180px;
+    line-height: 70px;
+    background-color: #EFEFEF;
+    margin: 60px 0px 0px 250px;
+  }
+}
+.number {
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+.number__form {
+  margin-left: 300px;
+  margin-top: 30px;
+  height: 70px;
+  width: 600px;
+  font-size: 40px;
+}
+.name {
+  font-size: 50px;
+  margin-left: 30px;
+  margin-top: 50px;
+}
+.name__form {
+  font-size: 40px;
+  margin-left: 300px;
+  margin-top: 30px;
+  height: 70px;
+  width: 600px;
+}
+.submit {
+  display: flex;
+  .employee__submit {
+    margin: 30px 0px 25px 1000px;
+    height: 70px;
+    width: 130px;
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid rgb(80, 77, 77);
+    line-height: 70px;
+  }
+  .emp__back {
+    font-size: 30px;
+    font-weight: bold;
+    border: 3px solid rgb(80, 77, 77);
+    height: 70px;
+    width: 130px;
+    line-height: 70px;
+    background-color: #EFEFEF;
+    margin: 30px 0px 25px 100px;
+
+  }
+}

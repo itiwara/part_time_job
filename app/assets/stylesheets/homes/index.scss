@@ -1,0 +1,106 @@
+.item__top {
+  display: flex;
+  &__logo {
+    font-family: 'Corben', cursive;
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    margin-left: 100px;
+    border-bottom: solid 6px #aac5de;
+    border-radius: 9px;
+    background: #c6e4ff;
+    padding-left: 40px;
+    height: 200px;
+    width: 250px;
+  }
+  &__time {
+    font-size: 30px;
+    font-family: Comic Sans MS;
+    height: 70px;
+    width: 350px;
+    margin: 20px 0px 0px 50px;
+    background-color: #fff;
+    border: 1px solid black;
+    text-align: center;
+    line-height: 70px;
+  }
+  &__accounted {
+    margin-top: 130px;
+    margin-left: 50px;
+    font-size: 20px;
+    border: 3px solid rgb(80, 77, 77);
+    border-radius: 10px; 
+    background-color: #fff;
+    height: 100px;
+    width: 110px;
+    padding: 20px 5px 0px 5px;
+  }
+  &__guest {
+    margin-top: 130px;
+    margin-left: 100px;
+    font-size: 20px;
+    border: 3px solid rgb(80, 77, 77);
+    border-radius: 10px; 
+    background-color: #fff;
+    height: 100px;
+    width: 110px;
+    line-height: 100px;
+  }
+  &__employee {
+    font-size: 20px;
+    margin-top: 130px;
+    margin-left: 100px;
+    line-height: 100px;
+    border: 3px solid rgb(80, 77, 77);
+    border-radius: 10px; 
+    background-color: #fff;
+    height: 100px;
+    width: 110px;
+  }
+}
+.item__under {
+  display: flex;
+  margin-left: 200px;
+  caption {
+    font-size: 50px;
+    border: 1px #fff;
+  }
+  td {
+    border: 5px solid rgb(80, 77, 77);
+    width: 150px;
+    height: 125px;
+    background-color: rgb(240, 221, 205);
+    font-size: 50px;
+    text-align: center;
+  }
+  &__sales {
+    font-size: 20px;
+    border: 3px solid rgb(80, 77, 77);
+    border-radius: 10px; 
+    background-color: #fff;
+    height: 100px;
+    width: 110px;
+    line-height: 100px;
+    margin: 180px 100px 0px 100px;
+  }
+  &__product {
+    font-size: 20px;
+    border: 3px solid rgb(80, 77, 77);
+    border-radius: 10px; 
+    background-color: #fff;
+    height: 100px;
+    width: 110px;
+    line-height: 100px;
+    margin-top: 180px;
+
+  }
+
+}
+a {
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  display: block;
+}

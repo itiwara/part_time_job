@@ -1,0 +1,15 @@
+%h3 従業員一覧
+.emp
+  .emp__index
+    %table{border: "2"}
+      %tr
+        %th 名前 
+        %th 番号
+      - @employees.each do |employee|
+        %tr
+          %td 
+            = employee.name
+          %td 
+            = employee.number
+.emp__index__back
+  = link_to "戻る", root_path

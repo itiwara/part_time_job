@@ -1,0 +1,16 @@
+.product
+  .product__new
+    %h1 商品設定
+    = form_for(@item) do |f|
+      .product__new__name
+        商品名
+        = f.text_field :name, class: "name__form2"
+      .product__new__price
+        価格
+        = f.text_field :price, class: "price__form"
+      .product__new__detail
+        商品の詳細
+      = f.text_area :detail, class: "detail__form"
+      .product__new__link
+        = f.submit "決定", class: "product__decision"
+        = link_to "戻る", items_path, class: "product__back"
