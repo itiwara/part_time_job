@@ -12,31 +12,43 @@
   .item__top__employee
     = link_to "従業員関係", new_employee_path 
 .item__under
-  %table{border: "1"}
-    %caption
-      従業員No. 入力
-    %tr
-      %td 1
-      %td 2
-      %td 3
-      %td 4
-    %tr
-      %td 5
-      %td 6
-      %td 7
-      %td 8
-    %tr
-      %td 9
-      %td 0
-      %td クリア
-      %td 進む
-  .item__under__form
-    -# = form_for @employee, url: root_path do |f|
-    -#   = f.text_field :name
+  = form_for(:session, url: login_path) do |f|
+    %table{border: "1"}
+      %caption
+        従業員No. 入力
+        = f.telephone_field :number, class: "number__form2", onClick: "selecttext(this)", value: ""
+      %tr
+        %td
+          %input{onclick: "keyEvent('1')", type: "button", value: "1"}
+        %td
+          %input{onclick: "keyEvent('2')", type: "button", value: "2"}
+        %td
+          %input{onclick: "keyEvent('3')", type: "button", value: "3"}
+        %td
+          %input{onclick: "keyEvent('4')", type: "button", value: "4"}
+      %tr
+        %td
+          %input{onclick: "keyEvent('5')", type:"button", value: "5"}
+        %td
+          %input{onclick: "keyEvent('6')", type: "button", value: "6"}
+        %td
+          %input{onclick: "keyEvent('7')", type: "button", value: "7"}
+        %td
+          %input{onclick: "keyEvent('8')", type: "button", value: "8"}
+      %tr
+        %td
+          %input{onclick: "keyEvent('9')", type: "button", value: "9"}
+        %td
+          %input{onclick: "keyEvent('0')", type: "button", value: "0"}
+        %td
+          %input{onclick: "allClear()", type: "button", value: "クリア"}
+        %td 
+          = f.submit "設定", class: "employee__submit2"
   .item__under__sales
     = link_to "#" do
       売上
   .item__under__product
     = link_to "商品編集", items_path
+  
       
     

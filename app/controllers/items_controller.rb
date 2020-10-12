@@ -33,6 +33,9 @@ class ItemsController < ApplicationController
     end
   end
 
+  def order
+  end
+
   private
 
   def set_item
