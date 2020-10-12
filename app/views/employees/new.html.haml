@@ -3,12 +3,12 @@
   .list__btn
     = link_to "従業員一覧", employees_path
 = form_for(@employee) do |f|
-  .number
-    従業員番号を入力して下さい。
-  = f.telephone_field :number, class: "number__form"
   .name
     名前を入力して下さい。
   = f.text_field :name, class: "name__form"
+  .number
+    従業員番号を入力して下さい。
+  = f.telephone_field :number, class: "number__form"
   .submit
     = f.submit "登録", class: "employee__submit"
     .emp__back

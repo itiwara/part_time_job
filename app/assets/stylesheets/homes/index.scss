@@ -62,18 +62,22 @@
 .item__under {
   display: flex;
   margin-left: 200px;
-  caption {
-    font-size: 50px;
-    border: 1px #fff;
-  }
-  td {
-    border: 5px solid rgb(80, 77, 77);
-    width: 150px;
-    height: 125px;
-    background-color: rgb(240, 221, 205);
-    font-size: 50px;
-    text-align: center;
-  }
+    caption {
+      font-size: 60px;
+    }
+    td {
+      border: 5px solid rgb(80, 77, 77);
+      width: 150px;
+      height: 125px;
+      background-color: #efefef;
+      font-size: 50px;
+      text-align: center;
+    }
+    .number__form2 {
+      height: 60px;
+      width: 400px;
+      margin-left: 50px;
+    }
   &__sales {
     font-size: 20px;
     border: 3px solid rgb(80, 77, 77);
@@ -95,7 +99,6 @@
     margin-top: 180px;
 
   }
-
 }
 a {
   font-weight: bold;
